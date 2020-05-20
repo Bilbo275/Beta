@@ -1,8 +1,21 @@
+<!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
-	<h1>Tout sur Tolkien</h1>
-	<p>un paragraphe</p>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge: Daisy chain</title>
+    </head>
+    <body>
+
+        
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+        <script>
+        // You can use the daisy image at: 
+        // https://upload.wikimedia.org/wikipedia/commons/2/29/English_Daisy_(Bellis_Perennis).jpg
+        var newImg = $("<img>");
+        newImg.attr("src", "https://upload.wikimedia.org/wikipedia/commons/2/29/English_Daisy_(Bellis_Perennis).jpg");
+        newImg.attr("width", "280");
+        newImg.attr("alt", "paquerettes");
+        newImg.appendTo("body");
+        </script>
+    </body>
 </html>
